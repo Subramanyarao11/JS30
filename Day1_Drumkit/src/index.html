@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Drumkit</title>
+</head>
+
+<body class="bg-hero font-sans">
+
+    <div class="flex flex-1 min-h-screen items-center justify-center">
+        <div data-key="A"
+            class="key text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">A</kbd>
+            <span class="sound text-xl uppercase text-sound tracking-widest">clap</span>
+        </div>
+        <div data-key="S"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">S</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">hihat</span>
+        </div>
+        <div data-key="D"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">D</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">kick</span>
+        </div>
+        <div data-key="F"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">F</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">openhat</span>
+        </div>
+        <div data-key="G"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">G</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">boom</span>
+        </div>
+        <div data-key="H"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block  text-6xl">H</kbd>
+            <span class="sound text-xl uppercase text-sound tracking-widest">ride</span>
+        </div>
+        <div data-key="J"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">J</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">snare</span>
+        </div>
+        <div data-key="K"
+            class="key  text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">K</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">tom</span>
+        </div>
+        <div data-key="L"
+            class="key text-white border-4 border-solid border-slate-900 rounded-lg m-4 text-2xl px-4 py-2 custom-transition text-center w-40 shadow-lg bg-text">
+            <kbd class="block text-6xl">L</kbd>
+            <span class="sound  text-xl uppercase text-sound tracking-widest">tink</span>
+        </div>
+    </div>
+
+    <audio data-key="A" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio data-key="S" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio data-key="D" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio data-key="F" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_openhat.wav"></audio>
+    <audio data-key="G" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio data-key="H" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio data-key="J" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio data-key="K" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_tom.wav"></audio>
+    <audio data-key="L" src="/Assets/Audio/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
