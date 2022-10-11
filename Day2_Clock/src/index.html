@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>CSS & JS - Clock</title>
+</head>
+<body class="bg-gradient-to-r from-blue-400 to-emerald-400 m-0 text-4xl flex flex-1 min-h-screen items-center">
+    <!-- Always run this Build command to see output in Browser
+        npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+     -->
+     <div class="w-96 h-96 border-[20px] border-solid rounded-full relative mx-12 my-auto p-8 myShadow">
+        <div class="relative w-full h-full transform translate-y-[-3px]">
+          <div class="hand hour-hand"></div>
+          <div class="hand min-hand"></div>
+          <div class="hand second-hand"></div>
+        </div>
+      </div>
+
+    <script src="/src/script.js"></script>
+</body>
+</html>
